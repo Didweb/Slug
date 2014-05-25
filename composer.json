@@ -1,0 +1,33 @@
+{
+	"name": "didweb/slug",
+	"description": "Creacion de slugs para url amigables",
+	"keywords": ["slug", "urls amigables", "url seo"],
+	"homepage": "https://github.com/Didweb",
+	"time": "2014-5-25",
+	"type": "symfony-bundle",
+    "license": "GPLv3",
+	"authors": [
+		{
+			"name": "Eduard Pinuaga Linares",
+			"email": "info@did-web.com",
+			"homepage": "http://www.did-web.com",
+			"role": "Developer"
+		}
+	],
+	"repositories":[
+	
+			{
+            "type": "vcs",
+            "url": "git@github.com:Didweb/Slug.git"
+        }
+	],
+	"autoload": {
+        "psr-0": { "Slug\\SlugBundle": "" }
+    },
+    "support": {
+		"email": "info@did-web.com",
+		"source": "https://github.com/Didweb/Slug",
+		"issues": "https://github.com/Didweb/Slug/issues"
+    }
+	
+}
