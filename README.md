@@ -24,7 +24,7 @@ Cuando quieras utilizar el servicio dentro del controlador utilizalo de la sigui
 
 ```
 
-El código por defecto tiene el guión medio `-` como seprador. Puedes cambiar el separador por el que tu quieras pasandolo como un parametro en la funcion `limpiando`. El separador es unparametro opcional así qeu si no lo especificas tendra el guión medio `-` como separador.
+El código por defecto tiene el guión medio `-` como seprador. Puedes cambiar el separador por el que tu quieras pasandolo como un parámetro en la funcion `limpiando`. El separador es un parámetro opcional así que si no lo especificas tendrá el guión medio `-` por defecto. 
 
 
 Ejemplo modificando el separador por un guión bajo `_`:
