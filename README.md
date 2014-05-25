@@ -4,6 +4,31 @@ Es un pequeño script para realizar Slugs.
 
 ## Instalación
 
+Instalación mediante composer, poner en el archivo `composer.json` ...
+
+```
+"require": {
+        ....
+        "didweb/slug": "1.*"
+        ....
+     }
+     
+```
+
+
+En el archivo `app/AppKernel.php` poner poner...
+
+```
+$bundles = array(
+    ...
+    new Slug\SlugBundle\SlugSlugBundle(),
+    ....
+    );
+
+```
+
+
+
 En el archivo de configuración: `app/config/config.yml` importar el servicio de esta manera:
 
 ```
