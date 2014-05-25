@@ -6,10 +6,13 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class Slug
 {
-	
+	private $separador;
 
-	public function limpiando($texto)
+
+
+	public function limpiando($texto,$separador = '-')
 	{
+		$this->separador = $separador;
 		$texto = $this->Normaliza($texto);
 		$texto = $this->sinPuntuacion($texto);
 		
@@ -30,7 +33,7 @@ class Slug
 
 	public function Normaliza($texto)
 	{
-		return strtolower(preg_replace(array('/[^a-zA-Z0-9 -]/', '/[ -]+/', '/^-|-$/'), array('', '-', ''), $this->sinTildes($texto)));
+		return strtolower(preg_replace(array('/[^a-zA-Z0-9 -]/', '/[ -]+/', '/^-|-$/'), array('', $this->separador, ''), $this->sinTildes($texto)));
 	}
 
 
