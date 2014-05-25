@@ -1,0 +1,3 @@
+index_slug:
+    pattern:  /slug/{palabra}
+    defaults: { _controller: SlugSlugBundle:Default:muestra }
