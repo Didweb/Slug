@@ -45,8 +45,8 @@ imports:
 Wenn Sie den Dienst im Controller Nutzung verwenden möchten es folgt ....
 
 ```
-	  $text = 'Text Besipiel: Á è ñ P % --o Wç ü ö ä';
-		$slug = $this->get('didweb_slug.accion');
+    $text = 'Text Besipiel: Á è ñ P % --o Wç ü ö ä';
+    $slug = $this->get('didweb_slug.accion');
     $res = $slug->clean($texto);
 
 ```
@@ -57,15 +57,15 @@ Der Standard-Code ist der Bindestrich `-` Separator. Sie können den Separator �
 Beispiel des Separators für eine Unterstreichungs modifizierende `_`:
 
 ```
-	  $text = 'Text Besipiel: Á è ñ P % --o Wç ';
-		$slug = $this->get('didweb_slug.accion');
+    $text = 'Text Besipiel: Á è ñ P % --o Wç ';
+    $slug = $this->get('didweb_slug.accion');
     $res = $slug->clean($text,'_');
 
 ```
 
 ***
 
-# :en: Slug
+#  :uk: Slug
 
 It is a small script to make Slugs.
 
@@ -107,8 +107,8 @@ imports:
 When you want to use the service inside the controller use it as follows ....
 
 ```
-	  $text = 'Texto de ejemplo: Á è ñ P % --o Wç ';
-		$slug = $this->get('didweb_slug.accion');
+    $text = 'Texto de ejemplo: Á è ñ P % --o Wç ';
+    $slug = $this->get('didweb_slug.accion');
     $resultado = $slug->clean($text);
 
 ```
@@ -119,9 +119,9 @@ Example modifying the separator by a dash under `_`:
 
 
 ```
-	  $texto = 'Texto de ejemplo: Á è ñ P % --o Wç ';
-		$slug = $this->get('didweb_slug.accion');
-    $resultado = $slug->clean($texto,'_');
+   $texto = 'Texto de ejemplo: Á è ñ P % --o Wç ';
+   $slug = $this->get('didweb_slug.accion');
+   $resultado = $slug->clean($texto,'_');
 
 ```
 
@@ -174,8 +174,9 @@ imports:
 Cuando quieras utilizar el servicio dentro del controlador utilízalo de la siguiente manera....
 
 ```
-	  $text = 'Texto de ejemplo: Á è ñ P % --o Wç ';
-		$slug = $this->get('didweb_slug.accion');
+
+    $text = 'Texto de ejemplo: Á è ñ P % --o Wç ';
+    $slug = $this->get('didweb_slug.accion');
     $resultado = $slug->clean($text);
 
 ```
@@ -186,8 +187,8 @@ El código por defecto tiene el guión medio `-` como separador. Puedes cambiar 
 Ejemplo modificando el separador por un guión bajo `_`:
 
 ```
-	  $texto = 'Texto de ejemplo: Á è ñ P % --o Wç ';
-		$slug = $this->get('didweb_slug.accion');
+    $texto = 'Texto de ejemplo: Á è ñ P % --o Wç ';
+    $slug = $this->get('didweb_slug.accion');
     $resultado = $slug->clean($texto,'_');
 
 ```
