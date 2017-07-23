@@ -1,5 +1,5 @@
 services:
-  didweb_slug.acciones:
+  didweb_slug.accion:
     arguments:
       - service_container
-    class: Slug\SlugBundle\Acciones\Slug
+    class: Slug\SlugBundle\Accion\Slug
