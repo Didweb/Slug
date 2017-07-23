@@ -16,7 +16,7 @@ class Slug
 		$text = $this->Normalizes($text);
 		$text = $this->noPunctuation($text);
 
-		return $texto;
+		return $text;
 	}
 
 
