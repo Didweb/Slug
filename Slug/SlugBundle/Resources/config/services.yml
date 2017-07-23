@@ -1,7 +1,5 @@
-parameters:
-    didweb_slug.acciones.class: Slug\SlugBundle\Acciones\Slug
-
 services:
-    didweb_slug.acciones:
-        class: %didweb_slug.acciones.class%
-        arguments: [ @service_container ]
+  didweb_slug.acciones:
+    arguments:
+      - service_container
+    class: Slug\SlugBundle\Acciones\Slug
